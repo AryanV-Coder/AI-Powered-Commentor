@@ -1,4 +1,4 @@
-# 💭 AI Powered Commenter
+# 💭 AI Powered Commentor
 
 Deployed Link : https://ai-powered-commenter.streamlit.app/
 
