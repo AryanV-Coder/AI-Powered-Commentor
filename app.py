@@ -15,7 +15,7 @@ mood = ["Good & Funny Comments","Roasting","Shayari"]
 option = st.selectbox("Select a Mood:", mood)
 
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
-model = genai.GenerativeModel("gemini-2.5-flash-lite")
+model = genai.GenerativeModel("gemini-3.0-flash-lite")
 
 if (option == mood[0]):
     with open('fineTuning/funny.json','r') as file:
